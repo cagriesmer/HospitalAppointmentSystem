@@ -22,9 +22,9 @@ namespace MvcProject.Models
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            throw new UnintentionalCodeFirstException();
+            base.OnModelCreating(modelBuilder);
         }
-    
+
         public virtual DbSet<ADMIN> ADMINs { get; set; }
         public virtual DbSet<DOCTOR> DOCTORs { get; set; }
         public virtual DbSet<PATIENT> PATIENTs { get; set; }
