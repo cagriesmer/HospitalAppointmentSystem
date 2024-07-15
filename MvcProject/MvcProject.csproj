@@ -296,7 +296,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migration\Configuration.cs" />
     <Compile Include="Models\ADMIN.cs">
       <DependentUpon>DBModel.tt</DependentUpon>
     </Compile>
